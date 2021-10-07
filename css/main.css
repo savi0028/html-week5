@@ -1,4 +1,50 @@
 /* apply bacground to whole page */
 body{
-    background-color: aqua;
+    background-color:  rgb(0, 102, 102);
+}
+/* target all paragraphs to be specific font color */
+p{
+    color:  rgb(187, 187, 187);
+}
+/* target para in footer */
+
+footer p{
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+}
+.larger{
+    font-size: 34px;
+}
+#play{
+    font-weight: bold;
+    font-size: larger;
+}
+img[src$="jpg"]{
+    width: 200px;
+}
+
+a:visited{
+    color: gold;
+}
+a:hover{
+    color: indigo;
+}
+p:last-child{
+    font-style: italic;
+}
+li:nth-child(2n-1){
+    background-color: rgb(133, 71, 92);
+}
+section{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(95, 0, 184);
+}
+nav{
+    background-color: lightpink;
+}
+span{
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
 }
